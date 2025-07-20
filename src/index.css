@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Importation de la police Poppins */
+@import url("./assets/fonts/fonts.css");
+
+/* Configuration de la police par défaut */
+body {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Classes utilitaires pour Poppins */
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.font-poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.font-poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.font-poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.font-poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}

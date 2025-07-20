@@ -1,0 +1,56 @@
+/* Police Poppins - Importation locale */
+
+/* Poppins Regular */
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Regular.woff2") format("woff2"),
+    url("./Poppins-Regular.woff") format("woff"),
+    url("./Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Poppins Medium */
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Medium.woff2") format("woff2"),
+    url("./Poppins-Medium.woff") format("woff"),
+    url("./Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Poppins SemiBold */
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-SemiBold.woff2") format("woff2"),
+    url("./Poppins-SemiBold.woff") format("woff"),
+    url("./Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Poppins Bold */
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Bold.woff2") format("woff2"),
+    url("./Poppins-Bold.woff") format("woff"),
+    url("./Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Poppins Light */
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Light.woff2") format("woff2"),
+    url("./Poppins-Light.woff") format("woff"),
+    url("./Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
