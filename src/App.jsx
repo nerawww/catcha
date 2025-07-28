@@ -3,6 +3,7 @@ import { useState } from "react";
 import Catcha from "./components/Catcha";
 import ParticlesBackground from "./components/ParticlesBackground";
 import GradientText from "./components/GradientText";
+import catIcon from "./assets/cat-svgrepo-com.svg";
 
 function App() {
   // État pour basculer entre l'écran d'accueil et le captcha
@@ -33,7 +34,7 @@ function App() {
           {/* En-tête avec logo et titre */}
           <div className="flex items-center justify-center gap-3 mb-6">
             <img
-              src="../src/assets/cat-svgrepo-com.svg"
+              src={catIcon}
               alt="Miaou"
               className="w-12 h-12 opacity-80 hover:scale-110 transition-transform cursor-pointer"
             />

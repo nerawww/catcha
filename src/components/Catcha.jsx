@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { FaRegCheckCircle } from "react-icons/fa";
 import ClickSpark from "./ClickSpark";
 import GradientText from "./GradientText";
+import catIcon from "../assets/cat-svgrepo-com.svg";
 
 const Catcha = ({ onClose, isOpen }) => {
   // États du jeu captcha
@@ -91,7 +92,7 @@ const Catcha = ({ onClose, isOpen }) => {
         {/* En-tête du captcha */}
         <div className="flex items-center justify-center gap-3 mb-6">
           <img
-            src="../src/assets/cat-svgrepo-com.svg"
+            src={catIcon}
             alt="Miaou"
             className="w-12 h-12 opacity-80 hover:scale-110 transition-transform cursor-pointer"
           />
@@ -155,7 +156,7 @@ const Catcha = ({ onClose, isOpen }) => {
                 >
                   <img
                     ref={catRef}
-                    src="../src/assets/cat-svgrepo-com.svg"
+                    src={catIcon}
                     alt="Miaou"
                     className="w-32 h-32 opacity-80 cursor-pointer"
                     onClick={handleCatClick}
